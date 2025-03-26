@@ -3,27 +3,27 @@
 ## fork vue-baidu-map  vue3 (build by vite，support baidu v2.0 、 v3.0 and webGl)
 
 <p align="center">
-  <img src="https://yangjianfei.github.io/mayer-baidu-map/favicon.png" width="200px">
+  <img src="https://yangjianfei.github.io/m-baidu-map/favicon.png" width="200px">
 </p>
 <p align="center">Baidu Map components for Vue 3.x</p>
 
-[![npm](https://img.shields.io/npm/v/mayer-baidu-map.svg)]()
+[![npm](https://img.shields.io/npm/v/m-baidu-map.svg)]()
 
 ## Languages
 
-- [中文](https://github.com/YangJianFei/mayer-baidu-map/blob/main/README.md)
-- [English](https://github.com/YangJianFei/mayer-baidu-map/blob/main/README.en.md)
+- [中文](https://github.com/YangJianFei/m-baidu-map/blob/main/README.md)
+- [English](https://github.com/YangJianFei/m-baidu-map/blob/main/README.en.md)
 
 ## Documentation
 
-[https://yangjianfei.github.io/mayer-baidu-map/](https://yangjianfei.github.io/mayer-baidu-map/)
+[https://yangjianfei.github.io/m-baidu-map/](https://yangjianfei.github.io/m-baidu-map/)
 
 ## Get Start
 
 ### Installation
 
 ```bash
-npm i --save mayer-baidu-map
+npm i --save m-baidu-map
 ```
 
 ### Initialization
@@ -82,7 +82,7 @@ copyright (c) 2016~now, YangJianFei <1294485765@qq.com>
 
 wechart:yjf163163  wechart group:scan me
 <div>
-  <img src="https://yangjianfei.github.io/mayer-baidu-map/heifahaizei.png" width="256px">
+  <img src="https://yangjianfei.github.io/m-baidu-map/heifahaizei.png" width="256px">
 </div>
 Hope you star!（づ￣3￣）づ╭<span style="color:red;">❤</span>～
 
@@ -92,4 +92,4 @@ Hope you star!（づ￣3￣）づ╭<span style="color:red;">❤</span>～
 - [ ] treeshaking
 
 ## updated logs
-[updated logs](https://github.com/YangJianFei/mayer-baidu-map/blob/main/docs/changelogs.md)
+[updated logs](https://github.com/YangJianFei/m-baidu-map/blob/main/docs/changelogs.md)

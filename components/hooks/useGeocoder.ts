@@ -4,7 +4,7 @@
  * @Date: 2023-03-24 17:59:37
  * @LastEditTime: 2023-04-04 16:22:00
  * @LastEditors: YangJianFei
- * @FilePath: \mayer-baidu-map\components\hooks\useGeocoder.ts
+ * @FilePath: \m-baidu-map\components\hooks\useGeocoder.ts
  */
 import { useMap } from './useMap';
 

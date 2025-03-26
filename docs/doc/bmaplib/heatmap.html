@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>热力图 | mayer-baidu-map</title>
+    <title>热力图 | m-baidu-map</title>
     <meta name="description" content="baidu-map的vue3/vue2版本（支持v2.0、v3.0和webGl api）我全都有。同时也是vue2-baidu-map的文档">
     <link rel="stylesheet" href="/doc/assets/style.f1680798.css">
     <link rel="modulepreload" href="/doc/assets/chunks/preload-helper.c3ed1176.js">
@@ -12,8 +12,8 @@
     <link rel="modulepreload" href="/doc/assets/chunks/Heatmap.fcc86e73.js">
     <link rel="modulepreload" href="/doc/assets/bmaplib_heatmap.md.e7617b8d.lean.js">
 
-    <meta name="twitter:title" content="热力图 | mayer-baidu-map">
-    <meta property="og:title" content="热力图 | mayer-baidu-map">
+    <meta name="twitter:title" content="热力图 | m-baidu-map">
+    <meta property="og:title" content="热力图 | m-baidu-map">
 </head>
 
 <body>
@@ -25,9 +25,9 @@
                         <path fill="currentColor"
                             d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"
                             class></path>
-                    </svg></div><a class="nav-bar-title" href="/doc/" aria-label="mayer-baidu-map, back to home"
+                    </svg></div><a class="nav-bar-title" href="/doc/" aria-label="m-baidu-map, back to home"
                     data-v-1bb74b4e data-v-cc01ef16><img class="logo" src="/doc/heifahaizei.png" alt="Logo"
-                        data-v-cc01ef16> mayer-baidu-map</a><!--[--><!--[-->
+                        data-v-cc01ef16> m-baidu-map</a><!--[--><!--[-->
                 <div style="display:none;" class="daily-sentence">没有了理想，青春之花也便凋谢了</div><!--]--><!--]-->
                 <div class="flex-grow" data-v-1bb74b4e></div>
                 <div class="nav" data-v-1bb74b4e>
@@ -103,7 +103,7 @@
                         </div><!--]--><!---->
                         <div class="item" data-v-eab3edfe>
                             <div class="nav-link" data-v-eab3edfe data-v-2d69d993><a class="item isExternal"
-                                    href="https://github.com/YangJianFei/mayer-baidu-map#readme" target="_blank"
+                                    href="https://github.com/YangJianFei/m-baidu-map#readme" target="_blank"
                                     rel="noopener noreferrer" data-v-2d69d993><span class="link-text"
                                         data-v-2d69d993><span>GitHub</span><span
                                             class="label-hot title-append"></span></span><svg class="icon outbound"
@@ -190,7 +190,7 @@
                     </div><!--]--><!---->
                     <div class="item" data-v-eab3edfe>
                         <div class="nav-link" data-v-eab3edfe data-v-2d69d993><a class="item isExternal"
-                                href="https://github.com/YangJianFei/mayer-baidu-map#readme" target="_blank"
+                                href="https://github.com/YangJianFei/m-baidu-map#readme" target="_blank"
                                 rel="noopener noreferrer" data-v-2d69d993><span class="link-text"
                                     data-v-2d69d993><span>GitHub</span><span
                                         class="label-hot title-append"></span></span><svg class="icon outbound"
@@ -478,7 +478,8 @@
                                         <td></td>
                                         <td>热力图渐变区间，如：
                                             <code>{5:&#39;rgb(0, 110, 255)&#39;,.8:&#39;rgb(100, 0, 255)&#39;}</code>，其中
-                                            key 表示插值的位置，取值范围 0 ~ 1，value 为颜色值。</td>
+                                            key 表示插值的位置，取值范围 0 ~ 1，value 为颜色值。
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>opacity</td>
@@ -509,7 +510,7 @@
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">import</span> <span class="token punctuation">{</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> BmlHeatmap <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;mayer-baidu-map&#39;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BmlHeatmap <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;m-baidu-map&#39;</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
   <span class="token punctuation">{</span> <span class="token literal-property property">lng</span><span class="token operator">:</span> <span class="token number">116.418261</span><span class="token punctuation">,</span> <span class="token literal-property property">lat</span><span class="token operator">:</span> <span class="token number">39.921984</span><span class="token punctuation">,</span> <span class="token literal-property property">count</span><span class="token operator">:</span> <span class="token number">50</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
@@ -666,7 +667,7 @@
                     <footer class="page-footer" data-v-7eddb2c4 data-v-07c132fc>
                         <div class="edit" data-v-07c132fc>
                             <div class="edit-link" data-v-07c132fc data-v-1ed99556><a class="link"
-                                    href="https://github.com/YangJianFei/mayer-baidu-map#readme/edit/main/bmaplib/heatmap.md"
+                                    href="https://github.com/YangJianFei/m-baidu-map#readme/edit/main/bmaplib/heatmap.md"
                                     target="_blank" rel="noopener noreferrer" data-v-1ed99556>为此页提供修改建议 <svg
                                         class="icon outbound icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                                         x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-1ed99556>

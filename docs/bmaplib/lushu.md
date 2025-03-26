@@ -87,7 +87,7 @@ const icon = ref({
 const bmlLushu = ref(null);
 
 onMounted(()=>{
-  import('mayer-baidu-map/extra/Lushu.vue').then(module=>{
+  import('m-baidu-map/extra/Lushu.vue').then(module=>{
     bmlLushu.value = module.default;
   });
 });
@@ -146,7 +146,7 @@ const handleSearchComplete = (res) => {
 
 <script setup>
 import { ref } from 'vue';
-import {  BmlLushu } from 'mayer-baidu-map';
+import {  BmlLushu } from 'm-baidu-map';
 
 const btnText = ref('play_arrow');
 const path = ref([]);

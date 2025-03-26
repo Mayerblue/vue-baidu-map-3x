@@ -5,134 +5,134 @@
     },
     "bm-scale": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-navigation": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-map-type": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-overview-map": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-geolocation": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-copyright": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-city-list": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-panorama": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-control": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-marker": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-point-collection": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-polyline": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-polygon": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-circle": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-ground": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-label": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-info-window": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-overlay": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-context-menu": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-context-menu-item": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-local-search": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-transit": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-walking": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-driving": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-bus": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-tile": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-traffic": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-auto-complete": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bm-boundary": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bml-curve-line": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bml-heatmap": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "lushu": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     },
     "bml-marker-clusterer": {
         "attributes": [],
-        "description": "mayer-baidu-map 组件"
+        "description": "m-baidu-map 组件"
     }
 }

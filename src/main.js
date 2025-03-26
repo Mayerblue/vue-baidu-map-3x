@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2023-10-13 17:22:05
  * @LastEditors: YangJianFei
- * @FilePath: \mayer-baidu-map\src\main.js
+ * @FilePath: \m-baidu-map\src\main.js
  */
 import { createApp } from 'vue'
 import App from './App.vue'

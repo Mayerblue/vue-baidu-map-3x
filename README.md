@@ -5,34 +5,34 @@
 [vue2-baidu-map](https://yangjianfei.github.io/vue2-baidu-map/)
 
 <p align="center">
-  <img src="https://yangjianfei.github.io/mayer-baidu-map/favicon.png" width="200px">
+  <img src="https://yangjianfei.github.io/m-baidu-map/favicon.png" width="200px">
 </p>
 <p align="center">基于 VUE 3.x 的百度地图组件</p>
 
-[![npm](https://img.shields.io/npm/v/mayer-baidu-map.svg)]()
+[![npm](https://img.shields.io/npm/v/m-baidu-map.svg)]()
 
 ## 语言
 
-- [中文](https://github.com/YangJianFei/mayer-baidu-map/blob/main/README.md)
-- [English](https://github.com/YangJianFei/mayer-baidu-map/blob/main/README.en.md)
+- [中文](https://github.com/YangJianFei/m-baidu-map/blob/main/README.md)
+- [English](https://github.com/YangJianFei/m-baidu-map/blob/main/README.en.md)
 
 ## 文档
 
-[https://yangjianfei.github.io/mayer-baidu-map/](https://yangjianfei.github.io/mayer-baidu-map/)
+[https://yangjianfei.github.io/m-baidu-map/](https://yangjianfei.github.io/m-baidu-map/)
 
 ## 开始
 
 ### 安装
 
 ```bash
-npm i mayer-baidu-map-3x
+npm i m-baidu-map-3x
 ```
 
 ### 初始化
 
 ```javascript
 import { createApp } from 'vue';
-import BaiduMap from 'mayer-baidu-map';
+import BaiduMap from 'm-baidu-map';
 // import BaiduMap from 'vue2-baidu-map'; vue2使用
 
 const app = createApp(App);
@@ -74,7 +74,7 @@ const ready = ({BMap,map})=>{
 ## 全国地区编码坐标点数据集
 
 ```js
-import AreaCodePoint from 'mayer-baidu-map/dist/areaCodePoint.json';
+import AreaCodePoint from 'm-baidu-map/dist/areaCodePoint.json';
 
 // 示例：
 {
@@ -101,7 +101,7 @@ import AreaCodePoint from 'mayer-baidu-map/dist/areaCodePoint.json';
 
 扫描添加下方的微信(<font color="#e81224">yjf163163</font>)并回复加群，即可加入”<font color="#e81224">前端男海群</font>“。交流学习，及时获取代码最新动态。
 <div>
-  <img src="https://yangjianfei.github.io/mayer-baidu-map/heifahaizei.png" width="256px">
+  <img src="https://yangjianfei.github.io/m-baidu-map/heifahaizei.png" width="256px">
 </div>
 如果对你有帮助送我一颗小星星（づ￣3￣）づ╭❤～
 
@@ -112,4 +112,4 @@ import AreaCodePoint from 'mayer-baidu-map/dist/areaCodePoint.json';
 - [ ] 箭头绘制，区域划分
 
 ## 更新日志
-[更新日志](https://github.com/YangJianFei/mayer-baidu-map/blob/main/docs/changelogs.md)
+[更新日志](https://github.com/YangJianFei/m-baidu-map/blob/main/docs/changelogs.md)

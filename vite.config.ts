@@ -8,8 +8,8 @@ export default defineConfig({
         // sourcemap: true,
         lib: {
             entry: path.resolve(__dirname,'components/index.ts'),
-            name: 'mayer-baidu-map',
-            fileName: (format) => `mayer-baidu-map.${format}.js`
+            name: 'm-baidu-map',
+            fileName: (format) => `m-baidu-map.${format}.js`
         },
         rollupOptions: {
             // 确保外部化处理那些你不想打包进库的依赖

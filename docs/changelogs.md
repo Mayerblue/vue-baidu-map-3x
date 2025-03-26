@@ -4,10 +4,10 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2024-11-21 14:04:30
  * @LastEditors: YangJianFei
- * @FilePath: \mayer-baidu-map\docs\changelogs.md
+ * @FilePath: \m-baidu-map\docs\changelogs.md
 -->
 ## 更新日志
-## mayer-baidu-map
+## m-baidu-map
 ### v1.0.40 [2024-11-21]
 - useGeocoder添加参数
 ### v1.0.38 [2024-04-10]

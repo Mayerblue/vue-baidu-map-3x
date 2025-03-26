@@ -2,12 +2,12 @@
 
 > vue2：先安装vue2-baidu-map
 
-> vue3: 先安装mayer-baidu-map
+> vue3: 先安装m-baidu-map
 
 ## 使用
 ```js
 import BaiduMapOffline from 'vue-baidu-map-offline';
-import BaiduMap from 'mayer-baidu-map'
+import BaiduMap from 'm-baidu-map'
 
 app.use(BaiduMapOffline, {
     offline: true

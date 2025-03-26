@@ -47,7 +47,7 @@
 
 <script setup>
 import { ref, toRef } from 'vue';
-import { getConfig } from 'mayer-baidu-map';
+import { getConfig } from 'm-baidu-map';
 
 const config = getConfig();
 

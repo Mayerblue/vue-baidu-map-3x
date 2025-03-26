@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2025-03-24 09:51:14
  * @LastEditors: YangJianFei 1294485765@qq.com
- * @FilePath: /mayer-baidu-map/docs/help/index.md
+ * @FilePath: /m-baidu-map/docs/help/index.md
 -->
 ## 作者微信
 

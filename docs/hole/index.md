@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { BaiduMap } from 'mayer-baidu-map'
+import { BaiduMap } from 'm-baidu-map'
 </script>
 
 <style>

@@ -16,8 +16,8 @@
             </span>
         </h2>
         <svg ref="$svg" class="sparkline" :width="svgWidth" height="300" stroke-width="3">
-            <text v-if="showError" font-size="20" x="50%" text-anchor="middle" y="50%"
-                style="stroke-width: 1;">{{ errorTip }}</text>
+            <text v-if="showError" font-size="20" x="50%" text-anchor="middle" y="50%" style="stroke-width: 1;">{{ errorTip
+            }}</text>
         </svg>
         <Loading v-if="isLoading" content="获取数据中" />
     </div>
@@ -30,7 +30,7 @@ import { ref,onMounted,nextTick } from 'vue';
 const props = defineProps({
     name: {
         type: String,
-        default: 'mayer-baidu-map'
+        default: 'm-baidu-map'
     }
 });
 
@@ -128,4 +128,5 @@ onMounted(() => {
         stroke-width: 1;
         fill: black;
     }
-}</style>
+}
+</style>

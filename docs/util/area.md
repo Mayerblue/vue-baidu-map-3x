@@ -1,7 +1,7 @@
 ## 全国地区编码坐标点数据集
 
 ```js
-import AreaCodePoint from 'mayer-baidu-map/dist/areaCodePoint.json';
+import AreaCodePoint from 'm-baidu-map/dist/areaCodePoint.json';
 
 // 示例：
 {
@@ -17,5 +17,5 @@ import AreaCodePoint from 'mayer-baidu-map/dist/areaCodePoint.json';
 
 ```js
 // main.js或者其他使用前的位置引入
-import 'mayer-baidu-map/dist/AreaRestriction_min.js';
+import 'm-baidu-map/dist/AreaRestriction_min.js';
 ```

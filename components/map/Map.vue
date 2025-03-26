@@ -27,7 +27,7 @@ export default {
         },
         proxyUrl: {
             type: String
-        }
+        },
         type: {
             type: String
         },
