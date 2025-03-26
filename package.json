@@ -2,12 +2,7 @@
     "name": "mayer-baidu-map",
     "author": "YangJianFei",
     "private": false,
-    "version": "1.3.1",
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/",
-        "tag": "latest",
-        "access": "public"
-    },
+    "version": "1.4.0",
     "description": "vue-baidu-map的vue3版本（支持v2.0、v3.0和webGl api）。Baidu Map Component for Vue 3.0 (support v2.0 、 v3.0 and webGl api)",
     "scripts": {
         "dev": "vite",

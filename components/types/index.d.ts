@@ -2,6 +2,7 @@ declare interface IAppConfig {
     ak: string;
     v?: string;
     type?: string;
+    proxyUrl?: string;
     [key: string]: any;
 }
 
@@ -108,6 +109,6 @@ interface IGeocoderResult {
 }
 
 interface IGeoCoder {
-    getPoint: (address: string, callback: (result: null | IPoint) => void, city: string) => void;
-    getLocation: (point: IPoint, callback: (result: null | IGeocoderResult) => void, options: any) => void;
+    getPoint: (address: string,callback: (result: null | IPoint) => void,city: string) => void;
+    getLocation: (point: IPoint,callback: (result: null | IGeocoderResult) => void,options: any) => void;
 }

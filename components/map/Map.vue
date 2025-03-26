@@ -25,6 +25,9 @@ export default {
         v: {
             type: String
         },
+        proxyUrl: {
+            type: String
+        }
         type: {
             type: String
         },
@@ -309,6 +312,7 @@ export default {
         this.ak && (options.ak = this.ak);
         this.v && (options.v = this.v);
         this.type && (options.type = this.type);
+        this.proxyUrl && (options.proxyUrl = this.proxyUrl);
         setConfig(options);
     },
     mounted() {
