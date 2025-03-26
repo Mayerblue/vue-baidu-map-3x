@@ -9,7 +9,7 @@
 示例
 
 ```bash
-import { getAddressByPoints } from 'vue-baidu-map-3x';
+import { getAddressByPoints } from 'mayer-baidu-map';
 
 /**
  * 通过坐标获取地址 config和返回值参考百度api
@@ -29,7 +29,7 @@ getAddressByPoints(config, ['你的ak']);
 示例
 
 ```bash
-import { getPointByAddress } from 'vue-baidu-map-3x';
+import { getPointByAddress } from 'mayer-baidu-map';
 
 /**
  * 通过地址获取坐标 config和返回值参考百度api
@@ -49,7 +49,7 @@ getPointByAddress(config, ['你的ak']);
 示例
 
 ```bash
-import { getPointsTransfer } from 'vue-baidu-map-3x';
+import { getPointsTransfer } from 'mayer-baidu-map';
 
 /**
  * 坐标转换 config和返回值参考百度api
@@ -72,7 +72,7 @@ getPointsTransfer(config, ['你的ak']);
 示例
 
 ```bash
-import { getConfig } from 'vue-baidu-map-3x';
+import { getConfig } from 'mayer-baidu-map';
 
 /**
  * 获取组件配置 返回值是use组件的参数

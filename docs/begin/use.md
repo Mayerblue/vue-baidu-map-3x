@@ -9,7 +9,7 @@
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import BaiduMap from 'vue-baidu-map-3x'
+import BaiduMap from 'mayer-baidu-map'
 
 const app = createApp(App);
 
@@ -46,7 +46,7 @@ app.mount('#app');
 </template>
 
 <script setup>
-import { BaiduMap } from 'vue-baidu-map-3x'
+import { BaiduMap } from 'mayer-baidu-map'
 </script>
 
 <style>

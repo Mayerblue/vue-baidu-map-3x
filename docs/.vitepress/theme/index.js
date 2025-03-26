@@ -9,7 +9,7 @@
 
 
 import DefaultTheme from 'vitepress/theme'
-import BaiduMap from 'vue-baidu-map-3x';
+import BaiduMap from 'mayer-baidu-map';
 import RunCode from '../components/run-code.vue'
 import './common.scss'
 import Loading from '../components/loading.vue';
@@ -22,13 +22,13 @@ export default {
     NotFound: DefaultTheme.NotFound,
     enhanceApp({ app }) {
         showHolidayTheme();
-        app.use(BaiduMap, {
+        app.use(BaiduMap,{
             ak: 'Yp57V71dkOPiXjiN8VdcFRsVELzlVNKK',
             // v: '2.0'
             // type: 'WebGL'
         });
-        app.component('RunCode', RunCode);
-        app.component('Loading', Loading);
-        app.component('Download', Download);
+        app.component('RunCode',RunCode);
+        app.component('Loading',Loading);
+        app.component('Download',Download);
     }
 }
