@@ -15,9 +15,10 @@ import './util/AreaRestriction_min';
 
 const app = createApp(App);
 
-app.use(BaiduMap, {
+app.use(BaiduMap,{
     // v: '2.0',
     ak: 'Yp57V71dkOPiXjiN8VdcFRsVELzlVNKK',
+    proxyUrl: 'https://api.map.baidu.com/'
     // type: 'WebGL'
 });
 app.use(Router);

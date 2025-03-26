@@ -16,14 +16,14 @@ export const deleteEmptyKey = (obj) => {
 let config = {
     v: '3.0',
     type: 'API',
-    baseUrl: '/_BMapService',
+    proxyUrl: '/_BMapService',
 };
 
 export const setConfig = (options = {}) => {
     config = Object.assign(config,options);
     if(!config.ak) {
         console.error('请配置ak：百度地图开发者平台申请的密钥');
-    } else if(!config.baseUrl) {
+    } else if(!config.proxyUrl) {
         console.error('请配置代理地址！');
     }
 };
